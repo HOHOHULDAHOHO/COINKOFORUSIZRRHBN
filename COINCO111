@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enko Education Network</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Enko Education Network</h1>
+        <p>A place for pupils in West Africa to connect, learn, and grow.</p>
+    </header>
+    <main>
+        <nav>
+            <a href="lessons.html">Lessons</a> |
+            <a href="chat.html">Chat</a>
+        </nav>
+        <section>
+            <h2>Get Started</h2>
+            <p>To begin, choose a page from the navigation above.</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 Enko Education Network</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enko Education Network - Lessons</title>
+</head>
+<body>
+    <header>
+        <h1>Lessons</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Available Lessons</h2>
+            <ul>
+                <li><a href="lesson1.html">Lesson 1: Introduction to Programming</a></li>
+                <li><a href="lesson2.html">Lesson 2: Mathematics for Programmers</a></li>
+                <li><a href="lesson3.html">Lesson 3: Science and Technology</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 Enko Education Network</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enko Education Network - Chat</title>
+</head>
+<body>
+    <header>
+        <h1>Chat</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Start a Conversation</h2>
+            <form action="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 Enko Education Network</p>
+    </footer>
+</body>
+</html>
